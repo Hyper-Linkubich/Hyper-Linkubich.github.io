@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+  font-family: lcd;
+  src: url(../font/SUBWT___.ttf);
+}
+
+html {
+    font-size: 2rem;
+    background-color: black;
+}
+
+body {
+    
+}
+
+main {
+width: fit-content;
+align-self: center; 
+}
+
+#keyBoard {
+    display: grid;
+grid-template-columns: repeat(4, 1fr);
+    
+}
+
+#keyBoard button{
+    height: 100px;
+    font-size: xx-large;
+    margin: 1px;
+    border-radius: 10px;
+}
+
+main input{
+    width: 100%;
+    font-size: 1.8rem;
+    margin-bottom:10px;
+    background-color: black;
+    color: green;
+    text-align: right;
+    padding: 10px 4px 10px 4px;
+    font-family: lcd;
+    border: 1px solid yellow;
+    border-radius:4px;
+}
+
+main section#keyBoard {
+    /** Grid eller liknade */
+}
+
+@media (max-width: 767px) {
+    body {
+
+    }
+
+    main {
+
+    }
+
+    main input{
+
+    }
+}
+
+@media (max-width: 339px) {
+    main {
+
+    }
+
+}
+
